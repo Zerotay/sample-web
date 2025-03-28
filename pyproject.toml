@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "zero-web"
+version = "0.0.6"
+description = ""
+authors = ["Zerotay <donggun1000@naver.com>"]
+readme = "README.md"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+prometheus-fastapi-instrumentator = "^7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
